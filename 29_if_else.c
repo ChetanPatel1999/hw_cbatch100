@@ -7,9 +7,9 @@ void main()
  scanf("%d",&num);
  if(num>200 &&  num<500)
  {
-    printf("num in range(200 to 500)");
+   printf("num in range(200 to 500)");
  }
  else{
-    printf("num not in range(200 to 500)");
+   printf("num not in range(200 to 500)");
  }
 }

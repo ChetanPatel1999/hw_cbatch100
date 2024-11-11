@@ -14,20 +14,12 @@ void main()
         printf("3. sandwitch : 150\n");
         printf("plesea press any number for order : ");
         scanf("%d", &num);//1
-        if(num==1)
+        switch(num)
         {
-          printf("your pasta is ordered please pay 120 rs");
-        }
-        else if (num==2)
-        {
-           printf("your noodles is ordered please pay 80 rs"); 
-        }
-        else if (num==3)
-        {
-           printf("your sandwith is ordered please pay 150 rs"); 
-        }
-        else{
-            printf("please enter 1,2 or 3");
+          case 1: printf("your pasta is ordered please pay 120 rs");break;
+          case 2:  printf("your noodles is ordered please pay 80 rs"); break;
+          case 3:  printf("your sandwith is ordered please pay 150 rs");break;
+          default :printf("please enter 1,2 or 3");
         }
     }
     else

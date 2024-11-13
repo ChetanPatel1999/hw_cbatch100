@@ -1,1 +1,1 @@
-ch == 'i'
+printf("even number series : ");

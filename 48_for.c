@@ -8,6 +8,6 @@ void main()
     for (i = 1; i <= 10; i++)//5
     {
         tab=i*n;
-        printf("%d \n", tab);
+        printf("%d * %d = %d \n",n ,i,tab);
     }
 }

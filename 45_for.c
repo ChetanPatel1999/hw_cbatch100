@@ -3,8 +3,8 @@
 void main()
 {
  int i;
- for(i=1;i<=10;i++)//11
+ for(i=1;i<=10;i+=2)//7
  {
-    printf("%d ",i);
+    printf("%d ",i);//1 3 5 7
  }
 }

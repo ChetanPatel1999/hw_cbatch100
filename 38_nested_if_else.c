@@ -21,6 +21,7 @@ void main()
           case 3:  printf("your sandwith is ordered please pay 150 rs");break;
           default :printf("please enter 1,2 or 3");
         }
+        
     }
     else
     {

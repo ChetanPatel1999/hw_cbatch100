@@ -9,7 +9,6 @@ void number()
   {
     number();
   }
-  
 }
 void main()
 {

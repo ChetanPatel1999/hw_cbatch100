@@ -2,18 +2,18 @@
 void main()
 {
     int arr[5];
-    int *ptr = &arr[0], i;
+    int *ptr = &arr[0], i;//400
     printf("enter array element :\n");
     for (i = 0; i < 5; i++)
     {
         scanf("%d", ptr);
         ptr++; // 420
     }
-    ptr = &arr[0];
+    ptr = &arr[0];//400
     printf("array element are : \n");
     for (i = 0; i < 5; i++) // 2
     {
         printf("%d \n", *ptr);
-        ptr++; // 408
+        ptr++; // 404
     }
 }

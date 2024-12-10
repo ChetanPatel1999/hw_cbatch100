@@ -3,7 +3,7 @@
 #include <string.h>
 struct pen
 {
-    char name[12];
+    char name[12]; // data memeber
     int price;
     float rating;
 };

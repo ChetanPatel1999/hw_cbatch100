@@ -7,6 +7,18 @@ struct pen
     int price;
     float rating;
 };
+void above_5_price(struct pen p[], int size)
+{
+    int i;
+    printf("\npen name above 5 price :\n");
+    for (i = 0; i < size; i++)
+    {
+        if (p[i].price>5)
+        {
+            printf("pen name : %s\n", p[i].name);
+        }
+    }
+}
 void main()
 {
     struct pen p[3];
@@ -22,11 +34,12 @@ void main()
         scanf("%f", &p[i].rating);
     }
 
-    for (i = 0; i < 3; i++)//2
+    for (i = 0; i < 3; i++) // 2
     {
         printf("\npen info ....\n");
         printf("name of pen : %s\n", p[i].name);
         printf("price of pen : %d\n", p[i].price);
         printf("rating of pen : %.1f\n", p[i].rating);
     }
+    above_5_price(p, 3);
 }
